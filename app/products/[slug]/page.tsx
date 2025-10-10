@@ -99,7 +99,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               className="w-full bg-primary text-primary-foreground hover:bg-primary/90 neon-cyan text-lg py-6"
               asChild
             >
-              <a href="https://amazon.com" target="_blank" rel="noopener noreferrer">
+            <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
                 Buy Now on Amazon
               </a>
             </Button>

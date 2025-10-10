@@ -14,6 +14,7 @@ const products = [
     description:
       "Triangular pyramid acoustic foam bass traps designed for ceiling corners to absorb low to high frequency sounds in home studios.",
     image: "https://m.media-amazon.com/images/I/71VrWBqU+fL._AC_SX679_.jpg",
+    amazonLink: "https://www.amazon.com/Pack-12-Designed-Acoustic-Adhesive-Included/dp/B08QN6B2FD",
   },
   {
     name: "Foroomaco Triangle Triangular Acoustic Bass Traps",
@@ -24,6 +25,7 @@ const products = [
     description:
       "4 pack triangular pyramid bass traps for sound proofing in home studios, absorbing low to high frequencies.",
     image: "https://m.media-amazon.com/images/I/81s0YQfIl1L._AC_SX679_.jpg",
+    amazonLink: "https://www.amazon.com/Foroomaco-Triangle-Triangular-Acoustic-Frequency/dp/B09YDP3S5Q",
   },
   {
     name: "20 Pack Acoustic Panels with Self Adhesive",
@@ -34,6 +36,7 @@ const products = [
     description:
       "High density sound proof foam panels for walls, brick design for home studio and office decor.",
     image: "https://m.media-amazon.com/images/I/817GUfTMvrL._AC_SX679_.jpg",
+    amazonLink: "https://www.amazon.com/Acoustic-Adhesive-Density-Soundproof-Absorbing/dp/B0CXSXGQ34",
   },
   {
     name: "Self-Adhesive Soundproof Perforated Panels",
@@ -44,6 +47,7 @@ const products = [
     description:
       "3D perforated tri-layer polyester fiber decorative acoustic insulation panels for studios.",
     image: "https://m.media-amazon.com/images/I/81lkRx-gFBL._AC_SX679_.jpg",
+    amazonLink: "https://www.amazon.com/Self-Adhesive-Soundproof-Perforated-Decorative-Broken-Line/dp/B0FKH658KW",
   },
   {
     name: "MAXTID Door Stopper Blocker",
@@ -54,6 +58,7 @@ const products = [
     description:
       "Adjustable door stoppers for sound blocking and draft stopping in homes and offices.",
     image: "https://m.media-amazon.com/images/I/71eqs0Im4DL._AC_SX679_.jpg",
+    amazonLink: "https://www.amazon.com/MAXTID-Stopper-Blocker-Stoppers-Adjustable/dp/B0B3DQNCCV",
   },
   {
     name: "Professional Recording Microphone Isolation Shield",
@@ -64,6 +69,7 @@ const products = [
     description:
       "Sound isolation shield for microphones in recording studios to reduce noise and reflections.",
     image: "https://m.media-amazon.com/images/I/51RpspRC0SL._AC_SX679_.jpg",
+    amazonLink: "https://www.amazon.com/Professional-Recording-Microphone-Isolation-microphones/dp/B07ZWDCXQQ",
   },
   {
     name: "UMIACOUSTICS Fiberglass Acoustic Wall Panels",
@@ -74,6 +80,7 @@ const products = [
     description:
       "2-inch thick fiberglass panels for sound absorption in studios, offices, and home theaters.",
     image: "https://m.media-amazon.com/images/I/71komP1Q9DL._AC_SX679_.jpg",
+    amazonLink: "https://www.amazon.com/UMIACOUSTICS-Fiberglass-Acoustical-Treatments-Self-adhesive/dp/B0D1THH1CN",
   },
   {
     name: "NICETOWN Soundproof Blackout Curtains",
@@ -84,6 +91,7 @@ const products = [
     description:
       "Heavy duty insulated blackout curtains for noise blocking in bedrooms and theaters.",
     image: "https://m.media-amazon.com/images/I/517kFeK7FVL._AC_SX679_.jpg",
+    amazonLink: "https://www.amazon.com/NICETOWN-Blocking-Blackout-Insulated-Dressing/dp/B07CJH69NS",
   },
   {
     name: "Art3d Wood Slat Acoustic Panels",
@@ -94,6 +102,7 @@ const products = [
     description:
       "3D fluted sound absorbing panels with wood finish for walls and ceilings in walnut color.",
     image: "https://m.media-amazon.com/images/I/81bdEC7xxhL._AC_SX679_PIbundle-2,TopRight,0,0_SH20_.jpg",
+    amazonLink: "https://www.amazon.com/Art3d-Wood-Acoustic-Panels-Ceiling/dp/B0BWRP7CWB",
   },
 ]
 
