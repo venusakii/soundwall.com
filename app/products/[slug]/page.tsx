@@ -8,7 +8,7 @@ import { notFound } from "next/navigation"
 
 const StarIcon = ({ filled = true }: { filled?: boolean }) => (
   <svg
-    className={`w-6 h-6 ${filled ? "fill-secondary text-secondary" : "fill-none text-muted-foreground"}`}
+    className={`w-5 h-5 ${filled ? "fill-secondary text-secondary" : "fill-none text-muted-foreground"}`}
     viewBox="0 0 24 24"
     stroke="currentColor"
     strokeWidth="2"
@@ -17,8 +17,9 @@ const StarIcon = ({ filled = true }: { filled?: boolean }) => (
   </svg>
 )
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
-  const product = products.find((p) => p.slug === params.slug)
+export default async function ProductPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const product = products.find((p) => p.slug === slug)
 
   if (!product) {
     notFound()
@@ -64,11 +65,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
 
             {/* Price */}
             <div className="mb-8">
-              
-            </div>
-
-            {/* Description */}
-            <p className="text-muted-foreground text-lg leading-relaxed mb-8">{product.description}</p>
+              <p className="text-muted-foreground text-lg leading-relaxed mb-8">{product.description}</p>
 
             {/* Features */}
             <Card className="bg-card/50 border-primary/20 p-6 mb-8">
@@ -99,7 +96,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               className="w-full bg-primary text-primary-foreground hover:bg-primary/90 neon-cyan text-lg py-6"
               asChild
             >
-            <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
+              <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
                 Buy Now on Amazon
               </a>
             </Button>
