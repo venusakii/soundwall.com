@@ -66,6 +66,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             {/* Price */}
             <div className="mb-8">
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">{product.description}</p>
+              <p className="text-white text-2xl font-bold mb-4">${product.price}</p>
+            </div>
 
             {/* Features */}
             <Card className="bg-card/50 border-primary/20 p-6 mb-8">
